@@ -115,7 +115,3 @@ weather-app/
 ## Author
 
 **Shrey Agarwal**
-
----
-
-Feel free to customize this README further to match your project's specific details!
