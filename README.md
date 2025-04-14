@@ -49,7 +49,7 @@ brew services start mongodb-community
 MONGODB_URI="mongodb://localhost:27017/weatherapp"
 PORT=3000
 
-npm run dev
+npx ts-node src/server.ts
 ```
 
 ### Frontend Setup
