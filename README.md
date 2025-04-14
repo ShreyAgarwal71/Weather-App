@@ -19,7 +19,7 @@ This Weather App is a full-stack application built with React, Next.js, Node.js 
 
 - RESTful API to handle CRUD operations for weather records.
 - MongoDB integration for persistent storage.
-- Export stored weather records in JSON, XML, CSV, and PDF formats.
+- Export stored weather records in JSON, CSV, and PDF formats.
 
 ## Technologies
 
