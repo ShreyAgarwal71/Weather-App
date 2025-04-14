@@ -42,8 +42,12 @@ This Weather App is a full-stack application built with React, Next.js, Node.js 
 cd weather-backend
 npm install
 
+#For MongoDB
+brew tap mongodb/brew
+brew install mongodb-community@6.0
+
 # Ensure MongoDB service is running
-brew services start mongodb-community
+brew services start mongodb-community@6.0
 
 # Set up environment variables (create a `.env` file)
 MONGODB_URI="mongodb://localhost:27017/weatherapp"
@@ -64,7 +68,7 @@ NEXT_PUBLIC_WEATHER_API_KEY="YOUR_OPENWEATHERMAP_API_KEY"
 npm run dev
 ```
 
-Frontend will start on `http://localhost:3000` (or another available port).
+Frontend will start on `http://localhost:3000` or `http://localhost:3001` (or another available port).
 
 ## Usage
 
